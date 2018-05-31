@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">基本レイアウト・パーツ</h1>
+      <h2 class="headline">
+        <p class="headline__text">Q7. 横並び</p>
+      </h2>
+      <div class="box">
+        <!--
+             要素を横並びにするというのは、高頻出のレイアウトです。
+             色々なやり方があるのですが、状況に応じて最適なものは違うので適切な配置の仕方ができるようになりましょう。
+             この問題ではHTMLはすでに用意しているので、classを自分で付与してスタイルをあててください。
+        -->
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q7-1 floatでの横並び ー</p>
+          </h3>
+          <!--
+               ■この問題で使う大事なプロパティ
+               ・float
+          -->
+          <!-- Q7の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q7 q7--float">
+            <div class="q7__inner">
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </div>
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
+              </div>
+            </div>
+          </div>
+          <!-- Q7の回答はここに書いてね -->
+        </div>
+
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q7-2 tableでの横並び ー</p>
+          </h3>
+          <!--
+               少しクセのある横並び方法です。
+
+               ■この問題で使う大事なプロパティ
+               ・display: table
+               ・display: table-cell
+          -->
+          <!-- Q7の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q7 q7--table">
+            <div class="q7__inner">
+              <div class="q7__box">
+                <div class="q7__box__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                </div>
+              </div>
+              <div class="q7__box">
+                <div class="q7__box__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Q7の回答はここに書いてね -->
+        </div>
+
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q7-3 inline-blockでの横並び ー</p>
+          </h3>
+          <!--
+               ■この問題で使う大事なプロパティ
+               ・display: inline-block
+          -->
+          <!-- Q7の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q7 q7--inlineblock">
+            <div class="q7__inner">
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </div>
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
+              </div>
+            </div>
+          </div>
+          <!-- Q7の回答はここに書いてね -->
+        </div>
+
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q7-4 flexでの横並び ー</p>
+          </h3>
+          <!--
+               簡単に横並びが可能、かつ様々なアレンジが可能ですが、
+               少し古いブラウザには対応してないので、他のものもしっかりと覚えるようにしましょう。
+
+               ■この問題で使う大事なプロパティ
+               ・flex
+          -->
+          <!-- Q7の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q7 q7--flex">
+            <div class="q7__inner">
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </div>
+              <div class="q7__box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
+              </div>
+            </div>
+          </div>
+          <!-- Q7の回答はここに書いてね -->
+        </div>
+
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q7-5 inline-blockとmarginでの横並び ー</p>
+          </h3>
+          <!--
+               上記でやったdisplay: inline-block;での横並び方法の派生です。
+               この方法を使うと可変幅 + 固定幅のレイアウトで横並びが可能です。
+               ただ方法はいくつかあるので、可変幅 + 固定幅になっていれば問題ないです。
+
+               ■この問題で使う大事なプロパティ
+               ・display: inline-block
+               ・margin, padding
+          -->
+          <!-- Q7の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q7 q7--margin">
+            <div class="q7__inner is-full">
+              <div class="q7__box">
+                <div class="q7__box__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                </div>
+              </div>
+              <div class="q7__box">
+                <div class="q7__box__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Q7の回答はここに書いてね -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

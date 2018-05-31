@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>基本レイアウト・パーツ</title>
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
+    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">基本レイアウト・パーツ</h1>
+      <h2 class="headline">
+        <p class="headline__text">Q6. 中央寄せ</p>
+      </h2>
+      <div class="box">
+        <!--
+             左右の中央寄せや、天地(上下)の中央寄せというのはサイトを作っているとよく遭遇するレイアウトです。
+             色々なやり方があるのですが、状況に応じて最適なものは違うので適切な配置の仕方ができるようになりましょう。
+             この問題ではHTMLはすでに用意しているので、classを自分で付与してスタイルをあててください。
+        -->
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q6-1 左右中央寄せ ー</p>
+          </h3>
+          <!--
+               ブロック要素内のテキスト(or インライン要素)の左右中央寄せに関してはtext-align:centerを設定することで簡単にできます。
+               ただ、ブロック要素そのものの左右中央寄せは少し工夫をしないとできません。
+               大きく分けて2通りのやり方があるのですが、それが以下の問題の2つです。
+               中央寄せするブロックの横幅が固定の場合は上の方法が、可変の場合は下の方法が向いています。
+          -->
+          <div class="q6 q6--horizontal">
+            <div class="q6__box">
+              <!--
+                   ■この問題で使う大事なプロパティ
+                   ・display
+                   ・text-align
+              -->
+              <!-- Q6-1の回答はここに書いてね -->
+              <div>
+                <p>text-align</p>
+              </div>
+              <!-- Q6-1の回答はここに書いてね -->
+            </div>
+            <div class="q6__box">
+              <!--
+                   ■この問題で使う大事なプロパティ
+                   ・margin
+              -->
+              <!-- Q6-1の回答はここに書いてね -->
+              <p>margin</p>
+              <!-- Q6-1の回答はここに書いてね -->
+            </div>
+          </div>
+        </div>
+
+        <div class="box__inner">
+          <h3 class="box__headline">
+            <p class="box__headline__text">ー Q6-2 天地左右中央寄せ ー</p>
+          </h3>
+          <!--
+               ブロック要素の天地中央寄せは左右よりも難易度が高くなります。
+               そして天地の中央寄せができる状態だと左右もできる状態に自然になっているため、今回は天地左右の中央寄せになります。
+               やり方は大きくわけて3つあります。
+               1番目の方法は少し前までよく使われていたやり方で全てのブラウザで表示ができますが、HTMLの記述が冗長になってしまいます。
+               2番目の方法は最新の記述で、とても簡単に書くことができますが、少し古いブラウザだと対応していません。
+               3番目の方法もよく使われますが、これも少し古いブラウザだと対応していません。
+
+               この問題もHTMLが用意されているのでclassを付与してスタイルをあててください。すでにふられているclassにスタイルをあてることはせず、新規でclassを作ってください。
+          -->
+          <!--
+               ■この問題で使う大事なプロパティ
+               ・display: table
+               ・display: table-cell
+               ・display: inline-block
+               ・vertical-align
+          -->
+          <!-- Q6-2の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q6 q6--around">
+            <div>
+              <p>table</p>
+            </div>
+          </div>
+          <!-- Q6-2の回答はここに書いてね -->
+          <!--
+               ■この問題で使う大事なプロパティ
+               ・display: flex
+               ・align-items
+               ・justify-content
+          -->
+          <!-- Q6-2の回答はここに書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+          <div class="q6 q6--around">
+            <p>flex</p>
+          </div>
+          <!-- Q6-2の回答はここに書いてね -->
+          <div class="q6 q6--position">
+            <!--
+                 中央寄せする要素のサイズが固定のとき
+
+                 ■この問題で使う大事なプロパティ
+                 ・position
+                 ・margin
+            -->
+            <!-- Q6-2の回答はここに書いてね -->
+            <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+            <div class="q6__box is-stable">
+              <p class="q6__box__inner">position固定</p>
+            </div>
+            <!-- Q6-2の回答はここに書いてね -->
+            <!--
+                 中央寄せする要素のサイズが可変のとき
+
+                 ■この問題で使う大事なプロパティ
+                 ・position
+                 ・transform
+            -->
+            <!-- Q6-2の回答はここに書いてね -->
+            <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
+            <div class="q6__box is-flexible">
+              <p class="q6__box__inner">position可変</p>
+            </div>
+            <!-- Q6-2の回答はここに書いてね -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
