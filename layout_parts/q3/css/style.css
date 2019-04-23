@@ -1,5 +1,42 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table-layout{
+  margin:0 auto;
+}
+
+
+table{
+  width: 100%;
+}
+
+  th,td{
+    border: solid #dedede 1px;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+
+
+  td:first-child,tr:first-child{
+    background-color: #2244aa;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  td:not(first-child){
+    font-size:16px;
+    line-height: 22px;
+  }
+
+  tr:nth-child(3),tr:nth-child(5){
+    background-color: #ecf1f2;
+  }
+
+  .total{
+    border-top: dashed #000 2px;
+  }
 
 /* 回答はここに書いてね */
