@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.dtable {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 0;
+    text-align: center;
+}
 
+.dtable th {
+    background-color: #24a;
+    color: white;
+    padding: 10px 0;
+    border: 1px solid #dedede;
+}
+
+.dtable td {
+    padding: 10px 0;
+    padding: 10px 0;
+    border: 1px solid #dedede;
+}
+
+.dtable tr:nth-child(even) td {
+    background-color: #ecf1f2;
+}
+
+.dtable tr:nth-child(4) td {
+    border-bottom: 2px dashed #000;
+}
 /* 回答はここに書いてね */

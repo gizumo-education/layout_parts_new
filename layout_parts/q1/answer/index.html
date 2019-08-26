@@ -17,43 +17,18 @@
         <p class="headline__text">Q1. ボックスモデル</p>
       </h2>
       <div class="box">
-        <!--
-             この問題はmarginとpaddingとborderをうまく使ってボックスを配置する問題です。
-             レイアウトとしては、1つの大きなボックスの中に3つのボックスが横並びになっていて、
-             さらにその3つのボックスの中にそれぞれ1つずつボックスが入っている形になっています。
-             3つのボックスはfloatで横並びにしているので、clearfixでの解除も忘れないようにしてください。
-
-             ■この問題で使う大事なプロパティ
-             ・margin
-             ・padding
-             ・border
-             ・float
-        -->
-        <!-- 回答はクラスq1の要素の中に書いてね -->
-        <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
-
-
-        <!-- ここ以下を参考にしてください。 -->
-        <!-- 「すでについてるクラスにはstyleを指定しない」という指示があるので、q1というクラスにはスタイルを指定せずに、q1__contentというクラスを追加して、そこに自分が指定したいスタイルを指定します。また、子要素のq1__content__boxというクラスは3つありfloatでの横並びする予定なので、親要素であるここでclearfixを付けてあげることをお忘れなく。 -->
         <div class="q1 q1__content clearfix">
-          <!-- q1__content__boxというクラスは、背景が濃い青のボックスになります。このボックスが3つ横並びなので同じ階層に<div class="q1__content__box"></div>を3つ書きます。 -->
           <div class="q1__content__box">
-            <!-- q1__content__textというクラスは、背景が濃い青のボックスの中にあるボックスですので、3つある<div class="q1__content__box"></div>の中に<p class="q1__content__text"></p>をそれぞれに入れてあげましょう。テキストが入る部分なのでpタグを使用します。 -->
             <p class="q1__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
           <div class="q1__content__box">
             <p class="q1__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-
           <div class="q1__content__box">
             <p class="q1__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-        <!-- ここ以上を参考にしてください。 -->
-
-
-        <!-- 回答はクラスq1の要素の中に書いてね -->
       </div>
     </div>
   </body>

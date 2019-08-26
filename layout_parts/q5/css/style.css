@@ -2,4 +2,91 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+.number_box {
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  position: relative;
+}
+
+.number {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  line-height: 100px;
+  text-align: center;
+}
+
+.box_1 {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+.box_2 {
+  background-color: #7084de;
+  top: 120px;
+  right: 120px; 
+  z-index: 2;
+
+}
+.box_3 {
+  background-color: #d0ecea;
+  top: 200px;
+  right: 40px;
+  z-index: 3;
+}
+.box_4 {
+  background-color: #8b7a5e;
+  top: 280px;
+  right: 120px;
+  z-index: 4;
+}
+.box_5 {
+  background-color: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+.box_6 {
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+.box_7 {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+.box_8 {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.box_8::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  z-index: 11;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box_9 {
+  background-color: #2b69a3;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  line-height: 100px;
+  text-align: center;
+}

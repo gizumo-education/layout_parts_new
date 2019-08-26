@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.dtable {
+    display: table;
+    padding: 20px 0;
+    width: 100%;
+}
 
+.dtable > div {
+    padding: 20px 0;
+    text-align: center;
+    display: table-cell;
+}
+
+.pink {
+    width: 100px;
+    background-color: #fdc8b8;
+}
+
+.violet {
+    background-color: #e0abd9;
+}
+
+.blue {
+    width: 100px;
+    background-color: #b6d8ed;
+}
+
+
+.yellow {
+    background-color: #e5d32e;
+}
+
+.red {
+    background-color: #ec8f9a;
+}
+
+.green {
+    background-color: #8fdcad;
+    width: 500px;
+}
 /* 回答はここに書いてね */
