@@ -30,28 +30,28 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn buttons">
             <p class="q8__title">ー small ー</p>
-            <div class="common s_common">common</div>
-            <div class="error s_error">error</div>
-            <div class="disabled s_disabled">disabled</div>
-            <div class="shadow s_shadow">shadow</div>
+            <div class="small common button">common</div>
+            <div class="small error button">error</div>
+            <div class="small disabled button">disabled</div>
+            <div class="small shadow button">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn button">
             <p class="q8__title">ー middle ー</p>
-            <div class="common m_common">common</div>
-            <div class="error m_error">error</div>
-            <div class="disabled m_disabled">disabled</div>
-            <div class="shadow m_shadow">shadow</div>
+            <div class="middle common button">common</div>
+            <div class="middle error button">error</div>
+            <div class="middle disabled button">disabled</div>
+            <div class="middle shadow button">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn button">
             <p class="q8__title">ー large ー</p>
-            <div class="common l_common">common</div>
-            <div class="error l_error">error</div>
-            <div class="disabled l_disabled">disabled</div>
-            <div class="shadow l_shadow">shadow</div>
+            <div class="large common button">common</div>
+            <div class="large error button">error</div>
+            <div class="large disabled button">disabled</div>
+            <div class="large shadow button">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,6 +99,85 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
+            <form class="q8__form clearfix">
+
+              <div class="form__title">
+                <p class="form__title__text">Form Exercise</p>
+              </div>
+
+              <div>
+                <div class="side__text">
+                  <textarea class="side__text__input" placeholder="なにかあれば入力してくださいます"></textarea>
+                </div>
+
+                <div class="main">
+                  <div class="main__items">
+                    <ul class="main__items__ul">
+                      <li class="clearfix">
+                        <p class="main__items__title">名前<span class="is__required">*</span></p>
+                        <div class="main__items__content">
+                          <input class="main__input" type="text" required>
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                        <p class="main__items__title">性別</p>
+                        <div class="main__items__content">
+                          <label class="radio">
+                            <input class="radio__button" type="radio" name="gender" value="male">
+                            <span class="radio__text">男性</span>
+                          </label>
+
+                          <label class="radio">
+                            <input class="radio__button" type="radio" name="gender" value="female">
+                            <span class="radio__text">女性</span>
+                          </label>
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                        <p class="main__items__title">出身</p>
+                        <div class="main__items__content select__div">
+                          <select class="main__select" name="hometown">
+                            <option value="tokyo">東京</option>
+                            <option value="saitama">埼玉</option>
+                            <option value="chiba">千葉</option>
+                            <option value="kanagawa">神奈川</option>
+                          </select>
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                        <p class="main__items__title">Eメール<span class="is__required">*</span></p>
+                        <div class="main__items__content">
+                          <input class="main__input" type="email" placeholder="ex) hoge@gmail.com" required>
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                        <p class="main__items__title">電話番号</p>
+                        <div class="main__items__content">
+                          <input class="main__input" type="tel" placeholder="ex) 08012345678">
+                        </div>
+                      </li>
+
+                      <li class="clearfix">
+                        <div class="main__items__content">
+                          <div class="main__checkbox">
+                            <input id="main__checkbox" class="checkbox__button" type="checkbox" name="twenty" value="true">
+                            <label for="main__checkbox" class="main__checkbox__text">20歳以上です</label>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="main__bottom">
+                    <button class="main__bottom__button">送信</button>
+                  </div>
+                </div>
+              </div>
+
+            </form>
             
           </div>
           <!-- 回答はここに書いてね -->

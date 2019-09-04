@@ -24,13 +24,13 @@
     word-break: break-all;
 }
 
-.img_1 {
+.img_left {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 
-.img_2 {
+.img_right {
     float: right;
     margin-left: 20px;
     margin-bottom:10px;
