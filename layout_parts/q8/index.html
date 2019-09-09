@@ -100,26 +100,19 @@
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
             <form class="q8__form clearfix">
-
               <div class="form__title">
                 <p class="form__title__text">Form Exercise</p>
               </div>
-
-              <div>
-                <div class="side__text">
-                  <textarea class="side__text__input" placeholder="なにかあれば入力してくださいます"></textarea>
-                </div>
-
+              <div class="clearfix">
                 <div class="main">
                   <div class="main__items">
                     <ul class="main__items__ul">
                       <li class="clearfix">
                         <p class="main__items__title">名前<span class="is__required">*</span></p>
                         <div class="main__items__content">
-                          <input class="main__input" type="text" required>
+                          <input class="main__input text__focused" type="text" required>
                         </div>
                       </li>
-
                       <li class="clearfix">
                         <p class="main__items__title">性別</p>
                         <div class="main__items__content">
@@ -127,16 +120,14 @@
                             <input class="radio__button" type="radio" name="gender" value="male">
                             <span class="radio__text">男性</span>
                           </label>
-
                           <label class="radio">
                             <input class="radio__button" type="radio" name="gender" value="female">
                             <span class="radio__text">女性</span>
                           </label>
                         </div>
                       </li>
-
                       <li class="clearfix">
-                        <p class="main__items__title">出身</p>
+                        <p class="main__items__title ">出身</p>
                         <div class="main__items__content select__div">
                           <select class="main__select" name="hometown">
                             <option value="tokyo">東京</option>
@@ -146,21 +137,18 @@
                           </select>
                         </div>
                       </li>
-
                       <li class="clearfix">
                         <p class="main__items__title">Eメール<span class="is__required">*</span></p>
                         <div class="main__items__content">
-                          <input class="main__input" type="email" placeholder="ex) hoge@gmail.com" required>
+                          <input class="main__input text__focused" type="email" placeholder="ex) hoge@gmail.com" required>
                         </div>
                       </li>
-
                       <li class="clearfix">
                         <p class="main__items__title">電話番号</p>
                         <div class="main__items__content">
-                          <input class="main__input" type="tel" placeholder="ex) 08012345678">
+                          <input class="main__input text__focused" type="tel" placeholder="ex) 08012345678">
                         </div>
                       </li>
-
                       <li class="clearfix">
                         <div class="main__items__content">
                           <div class="main__checkbox">
@@ -174,6 +162,9 @@
                   <div class="main__bottom">
                     <button class="main__bottom__button">送信</button>
                   </div>
+                </div>
+                <div class="side__text">
+                  <textarea class="side__text__input text__focused" placeholder="何かあれば入力して下さい。"></textarea>
                 </div>
               </div>
 

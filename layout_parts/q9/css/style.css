@@ -3,12 +3,12 @@
 /* 回答はここに書いてね */
 /* hover */
 .q9__trans {
-    position: relative;
-    overflow: hidden;
-    width: 500px;
-    height: 333px;
-    margin: 0 auto;
-    cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 .q9__trans__thumb {
   transition: all .5s;

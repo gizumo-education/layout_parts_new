@@ -1,18 +1,26 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.dtables {
+    padding: 20px;
+}
+
 .dtable {
     display: table;
-    padding: 20px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     width: 100%;
+}
+
+.dtable:last-child {
+    margin-bottom: 0;
 }
 
 .dtable:first-child {
     padding-bottom: 0;
 }
 
-.dtable > div {
+.cell {
     padding: 20px 0;
     text-align: center;
     display: table-cell;

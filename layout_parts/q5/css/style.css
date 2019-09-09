@@ -16,6 +16,8 @@
   position: absolute;
   line-height: 100px;
   text-align: center;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .box_1 {

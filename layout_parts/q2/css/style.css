@@ -2,37 +2,36 @@
 
 /* 回答はここに書いてね */
 .clearfix:after {
-    clear: both;
-    content: "";
-    display: block;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .q2 {
-    width: 940px;
-    background-color: #eff3f4;
-    margin: 0 auto;
+  width: 940px;
+  background-color: #eff3f4;
+  margin: 0 auto;
 }
 
 .container {
-    padding: 20px;
+  padding: 20px;
 }
 
 .text {
-    line-height: 22px;
-    font-size: 18px;
-    margin: 0;
-    word-break: break-all;
+  line-height: 22px;
+  font-size: 18px;
+  word-break: break-all;
 }
 
 .img_left {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .img_right {
-    float: right;
-    margin-left: 20px;
-    margin-bottom:10px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom:10px;
 }
 /* 回答はここに書いてね */

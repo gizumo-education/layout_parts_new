@@ -100,12 +100,17 @@
   box-sizing: border-box;
   resize: none;
 }
+.text__focused:focus {
+  box-shadow: 0 0 7px #00BCD4;
+  outline: none;
+
+}
 .main {
   width: 300px;
   float: left;
 }
 .main__items {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .main__items__ul > li {
   margin-top: 20px;
@@ -125,6 +130,9 @@
 }
 .is__required {
   color: #f00;
+}
+.select__div {
+  position: relative;
 }
 .select__div::after {
   display: block;
@@ -236,6 +244,10 @@
 .main__bottom {
   text-align: right;
 }
+.main__bottom__button:active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
 .main__bottom__button {
   padding: 0 10px;
   border-radius: 5px;
@@ -244,5 +256,8 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 26px;
+  outline: none;
+  border: none;
 }
+
 /* 回答はここに書いてね */
