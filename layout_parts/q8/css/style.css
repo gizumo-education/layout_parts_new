@@ -103,7 +103,6 @@
 .text__focused:focus {
   box-shadow: 0 0 7px #00BCD4;
   outline: none;
-
 }
 .main {
   width: 300px;

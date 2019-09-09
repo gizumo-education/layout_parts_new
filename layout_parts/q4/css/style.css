@@ -16,10 +16,6 @@
     margin-bottom: 0;
 }
 
-.dtable:first-child {
-    padding-bottom: 0;
-}
-
 .cell {
     padding: 20px 0;
     text-align: center;

@@ -83,12 +83,8 @@
 
 .box_9 {
   background-color: #2b69a3;
-  width: 100px;
-  height: 100px;
   position: fixed;
   top: 10px;
   left: 10px;
   z-index: 10;
-  line-height: 100px;
-  text-align: center;
 }
