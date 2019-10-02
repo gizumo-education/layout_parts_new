@@ -14,94 +14,31 @@
     <div class="wrapper">
       <h1 class="title">基本レイアウト・パーツ</h1>
       <h2 class="headline">
-        <p class="headline__text">Q8. ボタンパーツ ＆ フォーム</p>
+        <p class="headline__text">Q8. アニメーション</p>
       </h2>
       <div class="box">
         <div class="box__inner">
           <h3 class="box__headline">
-            <p class="box__headline__text">ー Q8-1 ボタンパーツ ー</p>
+            <p class="box__headline__text">ー Q8-1 transition ー</p>
           </h3>
-          <!--
-               この問題は特に難しいプロパティは使いませんので、普通にやれば簡単にボタンを作ることができます。
-               ただ、意識していただきたいのは、classを適切にふることで共通化できるスタイルは共通化してしまうということです。
-               この問題もHTMLはすでに記述してありますので、ボタンのdivにclassを付与してスタイルを当ててください。
-               .q8--btnにfont-sizeを0として指定してあるので必ずボタン部分でfont-sizeを指定してください。
-          -->
-          <!-- 回答はここに書いてね -->
+          <!-- 回答はクラスq8の要素の中に書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
-          <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+          <div class="q8">
+            base.css q9 から q8 へ
           </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
-
-          <div class="q8 q8--btn">
-            <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
-          <!-- 回答はここに書いてね -->
+          <!-- 回答はクラスq8の要素の中に書いてね -->
         </div>
 
         <div class="box__inner">
           <h3 class="box__headline">
-            <p class="box__headline__text">ー Q8-2 フォーム ー</p>
+            <p class="box__headline__text">ー Q8-2 animation ー</p>
           </h3>
-          <!--
-               Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
-               ここで使われるタグは一般的にはデザインするのが難しいと言われていますが、それをやらないといけない状況は結構多いです。（簡単リセットされない、:focusや:activeを使う）
-               まずは元々タグにあてられているスタイルを解除して、フラットな状態にしてからスタイルを当てていくことが大事です。
-
-               特にradioとcheckboxのチェックのスタイルが難しいと思います。
-               やり方として、既存のチェックは使わずに擬似要素でチェックのフィールドを再現します。:checkedを使えばチェックされているかどうかでスタイルを変えることができるので、これをうまく使いましょう。cssでは+（隣接セレクタ）というものも使わなくてはなりませんので、調べてみましょう。
-               また、一番下のボタンはbuttonタグを使って実装しましょう。（<input type="submit">を使って実装することも可能です）
-
-               この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?name=...」という感じの文字列が追加されているのがわかると思います。（その?以降のものをパラメーターと呼びます。複数ある場合は?◯◯=□□&△△=××のように&繋ぎになります。◯◯や△△の部分はinputタグやselectタグのname属性が入ります。）
-               これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
-               answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。（formのaction属性やmethod属性が関係してきます）
-               また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
-
-               また、この問題はレイアウトが複雑なため、サイズや色の確認のためにデベロッパーツールを見ても構いません。
-               ただ全ての答えを見るといったことはしないようにしましょう。
-
-               ■この問題で使う大事なhtml要素
-               ・label
-               ・form
-               ・input(type="text")
-               ・input(type="radio")
-               ・input(type="checkbox")
-               ・textarea
-               ・select
-               ・button (inputも可能)
-               ■この問題で使う大事なプロパティ
-               ・appearance(-webkit-appearance)
-               ・outline
-               ■この問題で使う大事な擬似要素
-               ・:checked
-               ・:focus
-               ・:active
-               ・:before
-               ・:after
-          -->
-          <!-- 回答はここに書いてね -->
-          <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
+          <!-- 回答はクラスq8の要素の中に書いてね -->
+          <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <div class="q8">
             
           </div>
-          <!-- 回答はここに書いてね -->
+          <!-- 回答はクラスq8の要素の中に書いてね -->
         </div>
       </div>
     </div>
