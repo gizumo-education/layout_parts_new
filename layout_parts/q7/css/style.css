@@ -2,4 +2,86 @@
 
 /* 回答はここに書いてね */
 
+/* float横並び */
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.floatbox {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.is-left {
+  float: left;
+  
+}
+.is-right {
+  float: right;
+  margin-left: 50px;
+}
+
+/* table横並び */
+.tablebox {
+  display: table;
+}
+
+.tablebox-c {
+  display: table-cell;
+  padding-left: 50px;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.tablebox-c:first-child {
+  padding-left: 0;
+}
+
+/* inlineblock横並び */
+.inlineblock-box {
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.inlineblock-box:first-child {
+  margin-left: 0;
+}
+
+.fix {
+  font-size: 0;
+  /* inline-blockを使った要素の親要素にfont-size:0;を指定することで隙間をなくす */
+}
+
+/* flex横並び */
+.is-flex {
+  display: flex;
+  justify-content: space-around; /* 両端にスペースを均等に割り付け */
+  align-items: flex-end;
+}
+
+.boxf {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/* inlineblockとmarginで横並び */
+.is-fixed{
+  display: inline-block;
+  width: 300px;
+}
+
+.is-changeable {
+  display: inline-block;
+  width: 100%;
+  margin-left: -305px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
 /* 回答はここに書いてね */
