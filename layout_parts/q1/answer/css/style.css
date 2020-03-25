@@ -47,7 +47,7 @@
   /* background-color: #3274ae; */
 }
 
-/* [16] 下の3行のコメントアウトを外す => 上記の[15]で3つ横並びの「.q1__content__box」同士の余白をmargin-leftで取りました。しかし、一番左にある「.q1__content__box」にもmargin-leftが不要なので、そのmargin-leftを0にしてあげましょう。 */
+/* [16] 下の3行のコメントアウトを外す => 上記の[15]で3つ横並びの「.q1__content__box」同士の余白をmargin-leftで取りました。しかし、一番左にある「.q1__content__box」にはmargin-leftが不要なので、そのmargin-leftを0にしてあげましょう。 */
 /* .q1__content .q1__content__box:first-child {
   margin-left: 0;
 } */
