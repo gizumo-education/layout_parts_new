@@ -8,6 +8,21 @@
   display: block;
   clear: both;
 }
+.wrapp_box{
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+}
 .q1_contents{
-  
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color: #3274ae;
+}
+.q1_contents_box{
+  padding: 20px;
+  border: 10px solid #022336;
+  background-color: #eaf4ff;
 }
