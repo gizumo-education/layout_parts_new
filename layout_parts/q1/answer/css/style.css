@@ -12,22 +12,22 @@
 
 
 /* [9] 「clearfix」クラスに対してスタイルの指定をしている直下の5行のコメントアウトを外す => これで、「clearfix」というクラスに対して下記のスタイルが指定されます。つまり、「clearfix」が使えるようになりました。これをしてあげると、うまく表示されなかった「.q1__content」が、3つの濃い青いボックスを囲うようにちゃんと表示されたと思います。 [10]は58行目。 */
-/* .clearfix:after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
-} */
+}
 
 /* q1__contentというクラスに対してのスタイルの指定 */
 .q1__content {
   /* [1] 下の行のwidthのコメントアウトを外す => 画面いっぱいだったテキストの範囲が900pxになっています。デベロッパーツールで確認してみましょう。 [2]は29行目。*/
-  /* width: 900px; */
+  width: 900px;
   /* [3] 下の行のmarginのコメントアウトを外す => この要素「.q1__content」が中央になる。ブロック要素（幅を指定しないと親要素の幅と同じになる）に親要素以下の幅を決めると決めた幅の外はmarginの扱いになるので、それを左右に振り分ける感じです。デベロッパーツールで確認すると左右にオレンジ（margin）のエリアが表示されます。 [4]は27行目。 */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* [4] 下の行のpaddingのコメントアウトを外す => paddingというのは、その要素の内側の余白です。このレイアウトでは、「.q1__content」の周りに余白があるのでこういう場合は「.q1__content」の内側の余白としてpaddingをつけてあげましょう。デベロッパーツールで確認するとpaddingのエリアは緑で表示されます。 [5]は32行目。 */
-  /* padding: 20px; */
+  padding: 20px;
   /* [2] 下の行のbackground-colorのコメントアウトを外す => widthで指定した幅の範囲に背景色が反映されます。 [3]は25行目。 */
-  /* background-color: #eff3f4; */
+  background-color: #eff3f4;
 
   /* [5] 補足ですが、デベロッパーツールでこの「.q1__content」の要素を見てみると、幅が940pxになっています。指定している幅は900pxなのになぜ940pxになってしまっているのでしょうか。それは上述してるようにpaddingというのは内側の余白だからです。原則として、「要素の幅 = 指定したwidth + padding + border（今回は指定してない）」になります。ここでは、width900px + 左右のpadding20pxずつで940pxになっています。下の行のbox-sizingのコメントアウトを外して見てください。この指定をすると「要素の幅 = 指定したwidth + padding」だったのが「要素の幅 = 指定したwidth」になります。つまり、指定した幅の中にpadding/borderを含めるというものになります。それがわかったら、再度コメントアウトしておきましょう。 [6]は46行目。 */
   /* box-sizing: border-box; */
@@ -36,32 +36,32 @@
 /* q1__content__boxというクラスに対してのスタイルの指定（同じクラス全てに指定されるスタイル） */
 .q1__content__box {
   /* [8] 下の行のfloatのコメントアウトを外す => 3つある「.q1__content__box」の要素を横並びにしたいから、DIV PUZZLEでやったとおり横並びにしたい要素にfloatの指定をします。この状態でブラウザで確認すると3つの「.q1__content__box」クラスを囲っている灰色の背景が変な形になってしまっています。それはfloatの指定をしたため起きてしまったものです。floatを指定したら、floatを指定した親要素でclearfixのスタイルも指定しておかなければいけませんね。 [9]は14行目。 */
-  /* float: left; */
+  float: left;
   /* [15] 下の行のmargin-leftのコメントアウトを外す => marginとはpaddingとは違い要素の外側の余白の指定です。この「.q1__content__box」は3つ並んでますが、それ同士がくっついてしまっているので余白をつけてあげましょう。 [16]は50行目。 */
-  /* margin-left: 20px; */
+  margin-left: 20px;
   /* [12] 下の行のpaddingのコメントアウトを外す => paddingとは要素の内側の余白と説明しました。この「.q1__content__box」は濃い青の背景が指定されているので、内側の余白（padding）を20pxをとってあげると、濃い青の背景が見えるようになる。 [13]は61行目。 */
-  /* padding: 20px; */
+  padding: 20px;
   /* [7] 下の行のwidthのコメントアウトを外す => 濃い青の背景色の要素の幅が230pxになります。 [8]は38行目。 */
-  /* width: 230px; */
+  width: 230px;
   /* [6] 下の行のbackground-colorのコメントアウトを外す => 濃い青の背景色が反映されます。 [7]は44行目。 */
-  /* background-color: #3274ae; */
+  background-color: #3274ae;
 }
 
 /* [16] 下の3行のコメントアウトを外す => 上記の[15]で3つ横並びの「.q1__content__box」同士の余白をmargin-leftで取りました。しかし、一番左にある「.q1__content__box」にはmargin-leftが不要なので、そのmargin-leftを0にしてあげましょう。 */
-/* .q1__content .q1__content__box:first-child {
+.q1__content .q1__content__box:first-child {
   margin-left: 0;
-} */
+}
 
 .q1__content__text {
   /* [14] 下の行のpaddingのコメントアウトを外す => [13]で指定した枠線（border）とテキストの間に余白がないので、内側の余白（padding）を付けてあげます。そうすることで、枠線（border）とテキストの間に余白ができます。 [15]は40行目。 */
-  /* padding: 20px; */
+  padding: 20px;
   /* [10] 下の2行のfont-sizeとline-heightのコメントアウトを外す => テキストの文字のサイズ（font-size）とテキストの行の高さ（line-height）を指定しました。 [11]は63行目。 */
-  /* font-size: 16px;
-  line-height: 16px; */
+  font-size: 16px;
+  line-height: 16px;
   /* [13] 下の行のborderのコメントアウトを外す => borderとは枠線を指定するCSSです。この「.q1__content__text」はテキストのpタグなのでその要素に黒い枠線がついたと思います。 [14]は56行目。 */
-  /* border: 10px solid #022336; */
+  border: 10px solid #022336;
   /* [11] 下の行のbackground-colorのコメントアウトを外す => 薄い青の背景色が反映されます。ブラウザで確認すると、上記で「.q1__content__box」に指定した背景色がなくなってしまいましたね。ただ、これはなくなってしまったわけではなく、「.q1__content__box」と「.q1__content__text」が同じ大きさなのでかぶって見えなくなってしまってるだけです。なので、それを解消しましょう。 [12]は42行目。 */
-  /* background-color: #eaf4ff; */
+  background-color: #eaf4ff;
 }
 
 
