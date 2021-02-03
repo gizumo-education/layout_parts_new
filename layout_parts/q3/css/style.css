@@ -7,26 +7,23 @@
   table-layout: fixed;
 }
 
-th {
+.main th {
   padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.main td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
   font-size: 16px;
   line-height: 22px;
   border: 1px solid #dedede;
-  vertical-align: middle;
-}
-
-thead tr th {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-th:first-child {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
 }
 
 tr:nth-child(even) {

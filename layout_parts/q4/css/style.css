@@ -9,10 +9,11 @@
 .contents {
   display: table;
   width: 100%;
+  margin-top: 20px;
 }
 
-.contents:last-child {
-  margin-top: 20px;
+.contents:first-child {
+  margin-top: 0px;
 }
 
 .style {
