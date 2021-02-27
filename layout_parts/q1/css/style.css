@@ -6,12 +6,12 @@
   content: "";
   clear: both;
 }
-.greybox { 
-
+.box {
   width: 940px;
-  background-color: #eff3f4;
   margin: 0 auto;
- 
+}
+.grey { 
+  background-color: #eff3f4;
 }
 .bluebox { 
   width: 270px;
