@@ -9,6 +9,7 @@
 .box {
   width: 940px;
   margin: 0 auto;
+  padding: 20px;
 }
 .grey { 
   background-color: #eff3f4;
@@ -18,8 +19,6 @@
   background-color: #3274ae;
   float: left;
   margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   padding: 20px;
   box-sizing: border-box;
 }

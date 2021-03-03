@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix {
+  display: block;
+  content: "";
+  clear: both;
+}
+.grey {
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+.pic-bal {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+.textbox {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+.pic-mon{
+  margin-bottom: 10px;
+  margin-left: 20px;
+  float: right;
+}
 
 /* 回答はここに書いてね */
