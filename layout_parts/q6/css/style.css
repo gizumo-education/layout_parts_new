@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.textA {
+.textbox {
   text-align: center;
 }
 .text {
@@ -10,7 +10,7 @@
   background-color: #e6f2ff;
   display: inline-block;
 }
-.marginA {
+.marginbox {
   text-align: center;
 }
 .margin {
@@ -18,5 +18,49 @@
   padding: 10px;
   width: 90px;
   background-color: #e6f2ff;
+}
+.table {
+  display: table;
+}
+.tablebox {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.tabletext {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flextext {
+  padding: 10px;
+  background-color: #fff;
+}
+.kotei {
+  position: relative;
+}
+.koteitext {
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.kahenn {
+  position: relative;
+}
+.kahenntext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
 /* 回答はここに書いてね */
