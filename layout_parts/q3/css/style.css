@@ -25,12 +25,10 @@
 .table1 tbody tr:last-child {
   border-top: dashed #000 2px;
 }
-.table1 tbody tr:nth-child(2) {
+.table1 tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
-.table1 tbody tr:nth-child(4) {
-  background-color: #ecf1f2;
-}
+
 
 
 /* 回答はここに書いてね */

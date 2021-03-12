@@ -13,6 +13,9 @@
   width: 100px;
   line-height: 100px;
   text-align: center;
+  width: 100px;
+  font-weight: bold;
+  font-size: 30px;
 }
 .b8 {
   background-color: #de70cf;
@@ -72,5 +75,9 @@
 }
 .b9 {
   background-color: #2B69A3;
+  position: fixed;
+  z-index: 1000;
+  top: 10px;
+  left: 10px;
 }
 /* 回答はここに書いてね */

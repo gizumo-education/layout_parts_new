@@ -10,6 +10,7 @@
   width: 940px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 .grey { 
   background-color: #eff3f4;
@@ -22,19 +23,19 @@
   padding: 20px;
   box-sizing: border-box;
 }
-
+.bluebox:first-child {
+  margin-left: 0px;
+}
 .textbox {
   box-sizing: border-box;
   width: 230px;
   padding: 20px;
   background-color: #eaf4ff;
   border: solid black 10px;
- 
 }
 .text {
   font-size: 16px;
   line-height: 16px;
-  
 }
 
 /* 回答はここに書いてね */
