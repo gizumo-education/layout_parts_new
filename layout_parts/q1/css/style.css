@@ -1,18 +1,15 @@
-@charset "UTF-8";　
+@charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix:after {
+.clearfix::after {
   display: block;
-  content: "";
+  content: " ";
   clear: both;
 }
-.box {
-  width: 940px;
+.grey {
+  width: 900px;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
-}
-.grey { 
   background-color: #eff3f4;
 }
 .bluebox { 
@@ -38,4 +35,3 @@
   line-height: 16px;
 }
 
-/* 回答はここに書いてね */

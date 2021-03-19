@@ -1,11 +1,6 @@
 @charset "UTF-8";　
 
 /* 回答はここに書いてね */
-.clearfix {
-  display: block;
-  content: "";
-  clear: both;
-}
 .grey {
   width: 900px;
   padding: 20px;
@@ -22,7 +17,7 @@
   line-height: 22px;
   word-break: break-all;
 }
-.pic-mon{
+.pic-mon {
   margin-bottom: 10px;
   margin-left: 20px;
   float: right;

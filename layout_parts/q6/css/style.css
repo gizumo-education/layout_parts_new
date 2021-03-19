@@ -5,10 +5,12 @@
   text-align: center;
 }
 .text {
+  display: inline-block;
+}
+.text {
   padding: 10px;
   width: 90px;
   background-color: #e6f2ff;
-  display: inline-block;
 }
 .marginbox {
   text-align: center;

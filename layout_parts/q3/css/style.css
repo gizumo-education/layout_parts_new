@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.table1 {
+.main {
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
 }
-.table1 th {
+.main th {
   background-color: #2244aa;
   color: white;
   border: solid #dedede 1px;
@@ -15,17 +15,17 @@
   font-size: 18px;
   line-height: 26px;
 }
-.table1 td {
+.main td {
   padding: 10px;
   font-size: 16px;
   line-height: 22px;
   text-align: center;
   border: solid #dedede 1px;
 }
-.table1 tbody tr:last-child {
+.main tbody tr:last-child {
   border-top: dashed #000 2px;
 }
-.table1 tbody tr:nth-child(even) {
+.main tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
