@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q9box {
+  width: 550px;
+  border: solid 5px #222;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.q9box:before{
+	content: "";
+	border: 20px solid transparent;
+	border-top: 20px solid #222;
+	position: absolute;
+	left: 30px;
+	bottom: -45px;
+}
+.q9box:after{
+	content: "";
+	border: 20px solid transparent;
+	border-top: 20px solid #fff;
+	position: absolute;
+	left: 30px;
+	bottom: -38px;
+}
+.text {
+  font-size: 16px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */
