@@ -24,6 +24,7 @@
 .tablecell {
   display: table-cell;
   padding-left: 50px;
+  box-sizing: content-box;
 }
 .q7--table .q7__box:first-child {
   padding-left: 0px;
