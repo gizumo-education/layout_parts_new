@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q2__content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+}
 
+.q2__content__text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+img.example1 { 
+  float: left; 
+  margin: 0 20px 10px 0;
+}
+
+img.example2 { 
+  float: right; 
+  margin: 0 0 10px 20px;
+}
+/* 質問する：テキストの改行が見本と違う */
 /* 回答はここに書いてね */
