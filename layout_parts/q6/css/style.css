@@ -1,28 +1,23 @@
-@charset "UTF-8";　
+@charset "UTF-8";
 
 /* 回答はここに書いてね */
-.a {
-  
-}
 .textbox {
   text-align: center;
 }
 .text {
-  display: inline-block;
-}
-.text {
-  padding: 10px;
   width: 90px;
+  padding: 10px 0;
   background-color: #e6f2ff;
+}
+.inline {
+  display: inline-block;
 }
 .marginbox {
   text-align: center;
 }
 .margin {
   margin: 0 auto;
-  padding: 10px;
-  width: 90px;
-  background-color: #e6f2ff;
+
 }
 .table {
   display: table;
@@ -47,7 +42,7 @@
   padding: 10px;
   background-color: #fff;
 }
-.kotei {
+.position {
   position: relative;
 }
 .koteitext {
@@ -57,9 +52,6 @@
   right: 0;
   bottom: 0;
   position: absolute;
-}
-.kahenn {
-  position: relative;
 }
 .kahenntext {
   position: absolute;

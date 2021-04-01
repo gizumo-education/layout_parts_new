@@ -5,22 +5,21 @@
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
+  text-align: center;
 }
 .main th {
   background-color: #2244aa;
   color: white;
-  border: solid #dedede 1px;
-  text-align: center;
-  padding: 10px;
   font-size: 18px;
   line-height: 26px;
+  border: solid #dedede 1px;
+  padding: 10px;
 }
 .main td {
-  padding: 10px;
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
   border: solid #dedede 1px;
+  padding: 10px;
 }
 .main tbody tr:last-child {
   border-top: dashed #000 2px;

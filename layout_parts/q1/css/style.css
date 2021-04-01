@@ -25,7 +25,6 @@
 }
 .textbox {
   box-sizing: border-box;
-  width: 230px;
   padding: 20px;
   background-color: #eaf4ff;
   border: solid black 10px;

@@ -27,7 +27,8 @@
   background-color: #FFEFD3;
   width: 20px;
   height: 20px;
-  right: 0px;
+  right: 0;
+  top: 0;
   content: "";
 }
 .b5 {

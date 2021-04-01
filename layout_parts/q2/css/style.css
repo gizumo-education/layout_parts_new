@@ -1,7 +1,10 @@
 @charset "UTF-8";　
 /* 回答はここに書いてね */
-.a {
-  
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .textbox {
   font-size: 18px;
