@@ -7,11 +7,13 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  cursor: hand;
 }
-.hob {
+.hover {
   transition: all 0.5s;
 }
-.picbox:hover .hob {
+.picbox:hover .hover {
   transform: scale(1.5);
 }
 .textbox {
@@ -34,7 +36,7 @@
   bottom: 0;
   width: 100%;
 }
-.maru {
+.round {
   width: 100px;
   height: 100px;
   margin: 0 auto;
@@ -43,9 +45,9 @@
   border-radius: 50%;
 }
 .animation {
-  animation: mawaru 1.1s linear infinite;
+  animation: rotation 1.1s linear infinite;
 }
-@keyframes mawaru {
+@keyframes rotation {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }

@@ -10,19 +10,19 @@
   box-sizing: border-box;
   padding: 20px;
 }
-.q9box:before{
+.q9box:before,
+.q9box:after {
 	content: "";
 	border: 20px solid transparent;
-	border-top: 20px solid #222;
 	position: absolute;
+}
+.q9box:before {
+	border-top: 20px solid #222;
 	left: 30px;
 	bottom: -45px;
 }
-.q9box:after{
-	content: "";
-	border: 20px solid transparent;
+.q9box:after {
 	border-top: 20px solid #fff;
-	position: absolute;
 	left: 30px;
 	bottom: -38px;
 }
