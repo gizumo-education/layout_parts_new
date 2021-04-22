@@ -13,7 +13,6 @@
   box-sizing: border-box;
   padding: 10px;
   margin-left: 50px;
-  /* font-size: 16px; */
 }
 
 .box_float:first-child {
@@ -41,7 +40,7 @@
 
 /* Q7-3 inline-blockでの横並び */
 .box_inline_parent {
-  white-space: nowrap;
+  font-size: 0;
 }
 
 .box_inline {
@@ -50,7 +49,6 @@
   vertical-align: middle;
   box-sizing: border-box;
   margin-left: 50px;
-  white-space: normal;
 }
 
 .box_inline:first-child {
@@ -65,19 +63,17 @@
 }
 .box_flex {
   width: 225px;
-  vertical-align: middle;
   box-sizing: border-box; 
 }
 
 /* Q7-5 inline-blockとmarginでの横並び */
 .box_margin_parent {
-  white-space: nowrap;
+  font-size: 0;
 }
 
 .box_margin_common {
   display: inline-block;
   vertical-align: top;
-  white-space: normal;
 }
 
 .box_margin_fixed {
@@ -86,7 +82,7 @@
 
 .box_margin_change {
   width: 100%;
-  margin-left: -305px;
+  margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }

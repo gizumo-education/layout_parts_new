@@ -8,6 +8,8 @@
   margin: 0 auto;
   position: relative;
   border-radius: 30px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .para_wrap:before, .para_wrap:after {
@@ -22,17 +24,10 @@
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
-  z-index: 10;
 }
 .para_wrap:after {
   bottom: -38px;
   left: 30px;
   border-top-color: #fff;
-  z-index: 20;
-}
-
-.para {
-  font-size: 16px;
-  line-height: 16px;
 }
 /* 回答はここに書いてね */
