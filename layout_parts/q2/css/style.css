@@ -14,14 +14,19 @@
   word-break: break-all;
 }
 
-img.example1 { 
+img.balloon_photo { 
   float: left; 
   margin: 0 20px 10px 0;
 }
 
-img.example2 { 
+img.river_photo { 
   float: right; 
   margin: 0 0 10px 20px;
 }
-/* 質問する：テキストの改行が見本と違う */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /* 回答はここに書いてね */

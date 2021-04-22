@@ -9,11 +9,11 @@
 .dtable {
   display: table; /* ブロックレベル要素をtableと同じように表示にする */
   width: 100%;
-  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .dtable:last-child {
-  margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .dtable_c {
