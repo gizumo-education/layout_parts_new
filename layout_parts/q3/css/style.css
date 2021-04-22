@@ -7,24 +7,24 @@
   text-align: center;
 }
 
-.th, .td {
+.table th, .table td {
   border: 1px solid #dedede;
   padding: 10px;
 }
 
-.th {
+.table th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: #fff;
 }
 
-.td {
+.table td {
   font-size: 16px;
   line-height: 22px;
 }
 
-.tr:nth-child(odd){
+.table tr:nth-child(odd){
   background-color: #ecf1f2;
 }
 

@@ -24,7 +24,7 @@
   top: 40px;
   left: 200px;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 .section2 {
@@ -32,7 +32,7 @@
   position: absolute;
   top: 120px;
   left: 280px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .section3 {
@@ -40,7 +40,7 @@
   position: absolute;
   top: 200px;
   right: 40px;
-  z-index: 20;
+  z-index: 30;
 }
 
 .section4 {
@@ -48,7 +48,7 @@
   position: absolute;
   bottom: 120px;
   left: 280px;
-  z-index: 30;
+  z-index: 40;
 }
 
 .section5 {
@@ -56,7 +56,7 @@
   position: absolute;
   bottom: 40px;
   left: 200px;
-  z-index: 40;
+  z-index: 50;
 }
 
 .section6 {
@@ -64,7 +64,7 @@
   position: absolute;
   bottom: 120px;
   right: 280px;
-  z-index: 50;
+  z-index: 60;
 }
 
 .section7 {
@@ -72,7 +72,7 @@
   position: absolute;
   top: 200px;
   left: 40px;
-  z-index: 60;
+  z-index: 70;
 }
 
 .section8 {
@@ -80,7 +80,7 @@
   position: absolute;
   top: 120px;
   left: 120px;
-  z-index: 70;
+  z-index: 80;
 }
 
 .section8::after {
@@ -91,7 +91,7 @@
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
-  z-index: 80;
+  z-index: 90;
 }
 
 .section9 {
