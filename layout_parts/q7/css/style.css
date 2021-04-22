@@ -1,14 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box_float {
-  float: left;
-  width: 225px;
+.box_font {
   font-size: 16px;
 }
 
+/* Q7-1 floatでの横並び */
+
+.box_float {
+  float: left;
+  width: 225px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 50px;
+  /* font-size: 16px; */
+}
+
 .box_float:first-child {
-  margin: 0 5px 0 0;
+  margin-left: 0;
 }
 
 .clearfix::after {
@@ -17,37 +26,68 @@
   clear: both;
 }
 
+/* Q7-2 tableでの横並び */
+
 .box_table {
   width: 225px;
   display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
 }
 
 .box_table:first-child {
-  margin: 0 5px 0 0;
+  padding-left: 0;
+}
+
+/* Q7-3 inline-blockでの横並び */
+.box_inline_parent {
+  white-space: nowrap;
 }
 
 .box_inline {
-  display: inline-block;
   width: 225px;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 50px;
+  white-space: normal;
 }
 
+.box_inline:first-child {
+  margin-left: 0;
+}
+
+/* Q7-4 flexでの横並び */
 .box_flex_wrap {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end; /* 下部に合わせて配置 */
+}
+.box_flex {
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box; 
 }
 
-.box_margin {
+/* Q7-5 inline-blockとmarginでの横並び */
+.box_margin_parent {
+  white-space: nowrap;
+}
+
+.box_margin_common {
   display: inline-block;
-}
-
-.box_margin:last-child {
-  /* display: inline-block; */
-  width: 100%;
-  margin-left: -200px;
-  padding-left: 350px;
+  vertical-align: top;
+  white-space: normal;
 }
 
 .box_margin_fixed {
   width: 300px;
+}
+
+.box_margin_change {
+  width: 100%;
+  margin-left: -305px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 /* 回答はここに書いてね */
