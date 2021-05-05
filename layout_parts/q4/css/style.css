@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q4__content {
+  background-color: #eff3f4;
+  padding: 20px;
+}
 
+.dtable {
+  display: table; /* ブロックレベル要素をtableと同じように表示にする */
+  width: 100%;
+  margin-top: 0;
+}
+
+.dtable:last-child {
+  margin-top: 20px;
+}
+
+.dtable_c {
+  display: table-cell;  /* ブロックレベル要素をtd(th)と同じように表示にする */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.orange {
+  background-color: #fdc8b8;
+  width: 100px;
+}
+.pink {
+  background-color: #e0abd9;
+}
+.blue {
+  background-color: #b6d8ed;
+  width: 100px;
+}
+.yellow {
+  background-color: #e5d32e;
+}
+.red {
+  background-color: #ec8f9a;
+}
+.green {
+  background-color: #8fdcad;
+  width: 500px;
+}
 /* 回答はここに書いてね */
