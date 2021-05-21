@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.clearfix::after{
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-.element{
+.element {
   width: 225px;
   box-sizing: border-box;
 }
-.q7--float .q7__box { 
+.q7--float .element { 
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
 }
-.q7--float .q7__box:first-child {
+.q7--float .element:first-child {
   margin-left: 0px;
 }
 .table {
@@ -26,7 +26,7 @@
   padding-left: 50px;
   box-sizing: content-box;
 }
-.q7--table .q7__box:first-child {
+.q7--table .element:first-child {
   padding-left: 0px;
   vertical-align: middle;
 }
