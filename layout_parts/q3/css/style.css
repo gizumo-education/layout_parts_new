@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #dedede;
+}
+
+.q3-table__row:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+
+.q3-table__row:last-child {
+  border-top: 2px dashed #000;
+}
+
+.q3-table__head,.q3-table__data {
+  border: 1px solid #dedede;
+  padding: 10px;
+  text-align: center;
+}
+
+.q3-table__head {
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #2244aa;
+  color: #fff;
+}
+
+.q3-table__data {
+  font-size: 16px;
+  line-height: 22px;
+}
 
 /* 回答はここに書いてね */
