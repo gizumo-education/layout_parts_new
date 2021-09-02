@@ -2,4 +2,81 @@
 
 /* 回答はここに書いてね */
 
+/* ============================
+q6 - 1
+============================= */
+
+.q6__box-wrap {
+  text-align: center;
+}
+
+.q6__box-align {
+  display: inline-block;
+}
+
+.q6__box-text {
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+}
+
+.q6__box-margin {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ============================
+q6 - 2
+============================= */
+
+/* table */
+.q6-table__wrap {
+  display: table;
+}
+
+.q6-table {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6-table__text {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* flex */
+.q6-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6-flex__text {
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* position */
+.q6-position {
+  position: relative;
+}
+
+.q6-position__fixed {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.q6-position__flex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
 /* 回答はここに書いてね */
