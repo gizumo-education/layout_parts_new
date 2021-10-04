@@ -3,7 +3,6 @@
 /* 回答はここに書いてね */
 
 .q3-table {
-  border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
   border: 1px solid #dedede;
