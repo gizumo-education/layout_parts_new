@@ -19,15 +19,13 @@
 }
 
 .q9-balloon::before {
-  bottom: -38px;
-  border-top: 20px solid #fff;
-  z-index: 2;
+  bottom: -45px;
+  border-top-color:#222;
 }
 
 .q9-balloon::after {
-  bottom: -45px;
-  border-top: 20px solid #222;
-  z-index: 1;
+  bottom: -38px;
+  border-top-color:#fff;
 }
 
 /* ballon - text */

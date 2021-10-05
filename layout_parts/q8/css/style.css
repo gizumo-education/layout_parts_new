@@ -1,17 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-/* common */
-* {
-  box-sizing: border-box;
-}
-
 /* transition */
 .q8-wrap {
   position: relative;
   cursor: pointer;
   margin: 0 auto;
-  /* image 500 x 333 */
   width: 500px;
   height: 333px;
   overflow: hidden;
@@ -42,6 +36,7 @@
 .q8-text {
   position: absolute;
   word-break: break-all;
+  box-sizing: border-box;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -56,11 +51,9 @@
   margin: 0 auto;
   width: 100px;
   height: 100px;
-  box-sizing: content-box;
   border: 10px solid #ecf1f2;
   border-radius: 50%;
   border-top-color: #00bcd4;
-  /* border-top: #00bcd4; */
   /* liner - 等速 */
   /* = cubic-bezier(0.0, 0.0, 1.0, 1.0) */
   /* infinite - 無限 */
