@@ -3,8 +3,10 @@
 /* 回答はここに書いてね */
 
 /* common */
-* {
-  box-sizing: border-box;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .q2-items {
@@ -12,13 +14,10 @@
   margin: 0 auto;
   background-color: #eff3f4;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 /* image */
-.image-wrap {
-  margin-bottom: 10px;
-}
-
 .image-wrap img {
   vertical-align: bottom;
 }
@@ -26,11 +25,12 @@
 .q2-image__left {
   float: left;
   margin-right: 20px;
+  margin: 0 20px 10px 0;
 }
 
 .q2-image__right {
   float: right;
-  margin-left: 20px;
+  margin: 0 0 10px 20px;
 }
 
 /* text */

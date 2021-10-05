@@ -1,14 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-/* common */
-* {
-  box-sizing: border-box;
-}
-
 .q4-inner {
   background-color: #eff3f4;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 /* parent */
