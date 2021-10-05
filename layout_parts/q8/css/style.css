@@ -55,7 +55,6 @@
   border-radius: 50%;
   border-top-color: #00bcd4;
   /* liner - 等速 */
-  /* = cubic-bezier(0.0, 0.0, 1.0, 1.0) */
   /* infinite - 無限 */
   animation: linear 1.1s infinite circle;
 }

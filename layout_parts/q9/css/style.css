@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-/* balloon */
 .q9-balloon {
   position: relative;
   margin: 0 auto;
@@ -28,7 +27,6 @@
   border-top-color:#fff;
 }
 
-/* ballon - text */
 .q9-balloon__text {
   font-size: 16px;
   line-height: 16px;
